@@ -1,4 +1,15 @@
 '''
+This python program is used to print basic interesting stats for GroupMe.
+If you are a user of GroupMe, it can do the following:
+	-total number of texts each person in the group has sent (frequency)
+	-top 20 texted words from the group (words)
+	-top 20 comments from the group, sorted by the number of likes (comments) 
+
+It has not been deployed into an app. Thus, it requires users to acquire an access token of their own.
+(access token can be obtained by visiting https://dev.groupme.com and creating your own application)
+
+Please look at the call format specification (below) carefully.
+
 Call format: 
 	python group_me_stats.py [name of file containing access_token] [-option] [groupID]
 	options:
