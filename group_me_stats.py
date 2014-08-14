@@ -6,7 +6,7 @@ Call format:
 		-f = prints texting frequency of each person
 		-w = prints top 20 commonly used words
 		-c = prints top 20 comments based on number of likes
-*note that -g should not have a groupID parameter nor access token file while all the others must have all
+*note that -g should not have a groupID parameter while all the others must have groupID param
 
 '''
 
