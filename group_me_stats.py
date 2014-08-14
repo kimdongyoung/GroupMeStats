@@ -145,6 +145,6 @@ if len(sys.argv) > 2:
 		elif options.words:
 			printTopTwentyCommonlyUsedWords(sys.argv[3])
 		elif options.comments:
-			printTopTenComments(sys.argv[3])
+			printTopTwentyComments(sys.argv[3])
 		else:
 			print "Invalid option."
